@@ -1,0 +1,23 @@
+﻿{
+  "Descriptor": {
+    "UId": "4affdec5-8786-d826-7c52-265af239303f",
+    "Name": "DeloitteBaseClassic",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1690274103000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/DeloitteBaseClassic.csproj",
+    "Description": "Package with study examples mainly in Classic UI.",
+    "DependsOn": [
+      {
+        "UId": "31fb3696-57b3-48c2-abe8-5a74e3530ca7",
+        "PackageVersion": "7.8.0",
+        "Name": "BankSales_BCJ_Lending_Marketing"
+      },
+      {
+        "UId": "89c04e50-c1f6-4ce5-a4b4-5da4b4304e09",
+        "PackageVersion": "7.8.0",
+        "Name": "BankOnboardingSoftkey_ENU"
+      }
+    ]
+  }
+}

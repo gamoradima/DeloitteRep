@@ -1,0 +1,19 @@
+<Project>
+	<ItemGroup Condition="'$(PkgPath)' != ''">
+		<Compile Remove="$(PkgPath)/DeloitteBaseClassic/Assemblies/**" />
+		<Compile Remove="$(PkgPath)/DeloitteBaseClassic/Data/**" />
+		<Compile Remove="$(PkgPath)/DeloitteBaseClassic/SqlScripts/**" />
+		<Compile Remove="$(PkgPath)/DeloitteBaseClassic/Schemas\**" />
+		<Compile Remove="$(PkgPath)/DeloitteBaseClassic/Resources/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DeloitteBaseClassic/Assemblies/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DeloitteBaseClassic/Data/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DeloitteBaseClassic/SqlScripts/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DeloitteBaseClassic/Schemas/**" />
+		<EmbeddedResource Remove="$(PkgPath)/DeloitteBaseClassic/Resources/**" />
+		<None Remove="$(PkgPath)/DeloitteBaseClassic/Assemblies/**" />
+		<None Remove="$(PkgPath)/DeloitteBaseClassic/Data/**" />
+		<None Remove="$(PkgPath)/DeloitteBaseClassic/SqlScripts/**" />
+		<None Remove="$(PkgPath)/DeloitteBaseClassic/Schemas/**" />
+		<None Remove="$(PkgPath)/DeloitteBaseClassic/Resources/**" />
+  </ItemGroup>
+</Project>
