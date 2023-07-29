@@ -1,0 +1,28 @@
+﻿{
+  "Descriptor": {
+    "UId": "0710ffcd-6be8-0aea-7eca-90c00d835b2b",
+    "Name": "Contact_NinjaExample",
+    "ModifiedOnUtc": "\/Date(1690361814000)\/",
+    "InstallType": 0,
+    "Schema": {
+      "UId": "16be3651-8fe2-4159-8dd0-a803d4683dd3",
+      "Name": "Contact"
+    },
+    "Columns": [
+      {
+        "ColumnUId": "ae0e45ca-c495-4fe7-a39d-3ab7278e1617",
+        "IsForceUpdate": false,
+        "IsKey": true,
+        "ColumnName": "Id",
+        "DataTypeValueUId": "23018567-a13c-4320-8687-fd6f9e3699bd"
+      },
+      {
+        "ColumnUId": "a5cca792-47dd-428a-83fb-5c92bdd97ff8",
+        "IsForceUpdate": false,
+        "IsKey": false,
+        "ColumnName": "Name",
+        "DataTypeValueUId": "ddb3a1ee-07e8-4d62-b7a9-d0e618b00fbd"
+      }
+    ]
+  }
+}

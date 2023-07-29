@@ -1,0 +1,23 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "AddonSchemaManager",
+      "UId": "9f1f6eae-473c-4f43-b9bd-d412fb05a386",
+      "A2": "UsrLoanPaymentSignatureBusinessRule",
+      "A5": "7edb6eb4-4150-4eb2-9f89-871c303413ce",
+      "B1": [],
+      "B2": [],
+      "B3": [],
+      "B6": "82150e8b-5401-4dc9-bc23-323926120e9e",
+      "B8": "8.0.9.1582",
+      "AD1": "d35efb7c-bdd9-4ae9-bf18-870eeb6ea99c",
+      "AD2": "EntitySchemaManager",
+      "AD3": "BusinessRule",
+      "AD5": "3a2d6f51-1bfc-4c17-aacb-b53de4866b7c",
+      "AD4": {
+        "JI0": "Terrasoft.Core.BusinessRules.BusinessRules",
+        "BRS1": []
+      }
+    }
+  }
+}

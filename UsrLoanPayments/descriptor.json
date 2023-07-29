@@ -1,0 +1,18 @@
+﻿{
+  "Descriptor": {
+    "UId": "82150e8b-5401-4dc9-bc23-323926120e9e",
+    "Name": "UsrLoanPayments",
+    "Type": 1,
+    "ModifiedOnUtc": "\/Date(1632313759000)\/",
+    "Maintainer": "Customer",
+    "ProjectPath": "Files/UsrLoanPayments.csproj",
+    "DependsOn": [
+      {
+        "UId": "012e2e14-082b-ac2b-da5a-2fc87bad41d4",
+        "PackageVersion": "7.8.0",
+        "Name": "CrtCore",
+        "Type": 1
+      }
+    ]
+  }
+}

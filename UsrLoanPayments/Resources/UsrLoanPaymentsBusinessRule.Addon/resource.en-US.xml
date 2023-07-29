@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="AddonConfig.Rules.152f4889-cd1d-0b7a-8535-e81f7a797ab9.Caption" Value="Make elements required: Comment" />
+			<Item Name="Caption" Value="Loan Payments (Business rules)" />
+		</Items>
+	</Group>
+</Resources>

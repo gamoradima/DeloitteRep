@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "44ecbc43-40be-459c-86cb-d8e9ec457b7b",
+    "Name": "UsrLoanPaymentSignaturePage",
+    "ModifiedOnUtc": "\/Date(1690535063000)\/",
+    "Parent": {
+      "UId": "ecdcc8ff-272c-4957-9381-7d74ce17e140",
+      "Name": "BaseMiniPageTemplate"
+    },
+    "ManagerName": "ClientUnitSchemaManager",
+    "Caption": "Loan payment signature modal page",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "0815166b-02e0-4dc0-b1bf-4e04d35804bc",
+    "Name": "UsrLoanPaymentSignatureRelatedPage",
+    "ModifiedOnUtc": "\/Date(1690535089000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Loan payment signature (Page settings)",
+    "DependsOn": []
+  }
+}

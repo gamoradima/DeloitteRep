@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "d9e2d4ca-4d99-4815-8ddc-1dc2b30bfc10",
+    "Name": "UsrLoanPaymentsBusinessRule",
+    "ModifiedOnUtc": "\/Date(1690530818000)\/",
+    "ManagerName": "AddonSchemaManager",
+    "Caption": "Loan Payments (Business rules)",
+    "DependsOn": []
+  }
+}
