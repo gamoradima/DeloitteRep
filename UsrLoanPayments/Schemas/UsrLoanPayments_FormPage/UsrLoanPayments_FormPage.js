@@ -1,4 +1,5 @@
-define("UsrLoanPayments_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/()/**SCHEMA_ARGS*/ {
+/* jshint esversion: 11 */
+define("UsrLoanPayments_FormPage", /**SCHEMA_DEPS*/["@creatio-devkit/common"]/**SCHEMA_DEPS*/, function/**SCHEMA_ARGS*/(sdk)/**SCHEMA_ARGS*/ {
 	return {
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
 			{
@@ -64,10 +65,11 @@ define("UsrLoanPayments_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/
 					"color": "warn",
 					"disabled": false,
 					"size": "medium",
-					"iconPosition": "only-text",
+					"iconPosition": "left-icon",
 					"visible": true,
 					"menuItems": [],
-					"clickMode": "menu"
+					"clickMode": "menu",
+					"icon": "settings-button-icon"
 				},
 				"parentName": "CardToggleContainer",
 				"propertyName": "items",
@@ -87,11 +89,28 @@ define("UsrLoanPayments_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/
 							"processRunType": "ForTheSelectedPage",
 							"recordIdProcessParameterName": "LoanPaymentIdParameter"
 						}
-					}
+					},
+					"icon": "filter-funnel-icon"
 				},
 				"parentName": "Button_8a8jh9c",
 				"propertyName": "menuItems",
 				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "RunWebServiceMenuItem",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(MenuItem_fb7hc6c_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "usr.RunWebServiceButtonRequest"
+					},
+					"icon": "process-button-icon"
+				},
+				"parentName": "Button_8a8jh9c",
+				"propertyName": "menuItems",
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -850,7 +869,46 @@ define("UsrLoanPayments_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/
 					/* Call the next handler if it exists and return its result. */
 					return next?.handle(request);
 				}
-			}
+			},
+			{
+				request: "usr.RunWebServiceButtonRequest",
+				/* Implementation of the custom query handler. */
+				handler: async (request, next) => {
+					this.console.log("Run web service button works...");
+
+					// get id from type lookup status object
+					var statusObject = await request.$context.LookupAttribute_glqob67;
+					var statusId = "";
+					if (statusObject) {
+						statusId = statusObject.value;
+					}
+					
+					/* Create an instance of the HTTP client from @creatio-devkit/common. */
+					const httpClientService = new sdk.HttpClientService();
+
+					/* Specify the URL to retrieve the current rate. Use the coindesk.com external service. */
+					const baseUrl = Terrasoft.utils.uri.getConfigurationWebServiceBaseUrl();
+					const transferName = "rest";
+					const serviceName = "LoanPaymentService";
+					const methodName = "GetTotalPaymentAmountByStatusId";
+					const endpoint = Terrasoft.combinePath(baseUrl, transferName, serviceName, methodName);
+					
+					//const endpoint = "http://localhost/D2_8.0.9.1582_DL/0/rest/LoanPaymentService/GetTotalPaymentAmountByStatusId";
+					/* Send a POST HTTP request. The HTTP client converts the response body from JSON to a JS object automatically. */
+					var params = {
+						loanPaymentStatusId: statusId
+					};
+					const response = await httpClientService.post(endpoint, params);
+					
+					var result = response.body.GetTotalPaymentAmountByStatusIdResult;
+					this.console.log("response total amount = " + result);
+					Terrasoft.showInformation("Total amount = " + result);
+					
+					/* Call the next handler if it exists and return its result. */
+					return next?.handle(request);
+				}
+			},	
+
 
 		]/**SCHEMA_HANDLERS*/,
 		converters: /**SCHEMA_CONVERTERS*/{}/**SCHEMA_CONVERTERS*/,

@@ -19,6 +19,7 @@
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_1fv3jgm_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.Input_pwmq2yw_label.Value" Value="Text" />
 			<Item Name="LocalizableStrings.MenuItem_byb0b1r_caption.Value" Value="Calc avg amount" />
+			<Item Name="LocalizableStrings.MenuItem_fb7hc6c_caption.Value" Value="Run Web service" />
 			<Item Name="LocalizableStrings.NumberInput_a72i2mf_placeholder.Value" Value="put your amount here" />
 			<Item Name="LocalizableStrings.NumberInput_a72i2mf_tooltip.Value" Value="some info" />
 			<Item Name="LocalizableStrings.PhoneInput_d7zzbuq_caption.Value" Value="Phone number" />
