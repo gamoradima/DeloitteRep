@@ -3,8 +3,13 @@
 	<Group Type="String">
 		<Items>
 			<Item Name="Caption" Value="Loan Payments form page" />
+			<Item Name="LocalizableStrings.addRecord_1vf373l_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.addRecord_ps4dwsr_caption.Value" Value="Add new" />
 			<Item Name="LocalizableStrings.addRecord_ymz6shv_caption.Value" Value="Add new" />
+			<Item Name="LocalizableStrings.Button_8a8jh9c_caption.Value" Value="Actions" />
 			<Item Name="LocalizableStrings.Button_9c5708n_caption.Value" Value="Push!" />
+			<Item Name="LocalizableStrings.ComboBox_pehvzhw_ariaLabel.Value" Value="Dropdown" />
+			<Item Name="LocalizableStrings.ComboBox_pehvzhw_label.Value" Value="Dropdown" />
 			<Item Name="LocalizableStrings.ExpansionPanel_513gm50_title.Value" Value="Loan payment signature" />
 			<Item Name="LocalizableStrings.GridDetailAddBtn_gpvoo1p_caption.Value" Value="New" />
 			<Item Name="LocalizableStrings.GridDetailExportDataBtn_n23y49t_caption.Value" Value="Export to Excel" />
@@ -12,8 +17,12 @@
 			<Item Name="LocalizableStrings.GridDetailRefreshBtn_jgf222e_caption.Value" Value="Refresh" />
 			<Item Name="LocalizableStrings.GridDetailSearchFilter_oglcxan_placeholder.Value" Value="Search" />
 			<Item Name="LocalizableStrings.GridDetailSettingsBtn_1fv3jgm_caption.Value" Value="Actions" />
+			<Item Name="LocalizableStrings.Input_pwmq2yw_label.Value" Value="Text" />
+			<Item Name="LocalizableStrings.MenuItem_byb0b1r_caption.Value" Value="Calc avg amount" />
 			<Item Name="LocalizableStrings.NumberInput_a72i2mf_placeholder.Value" Value="put your amount here" />
 			<Item Name="LocalizableStrings.NumberInput_a72i2mf_tooltip.Value" Value="some info" />
+			<Item Name="LocalizableStrings.PhoneInput_d7zzbuq_caption.Value" Value="Phone number" />
+			<Item Name="LocalizableStrings.PhoneInput_d7zzbuq_label.Value" Value="Phone number" />
 		</Items>
 	</Group>
 </Resources>

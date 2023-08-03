@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "9de722b0-2842-46a9-962d-e24527af322f",
+    "Name": "UsrCalcAvgLoanPaymentProcess",
+    "ModifiedOnUtc": "\/Date(1690879972000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Calculate average loan payment process",
+    "DependsOn": []
+  }
+}

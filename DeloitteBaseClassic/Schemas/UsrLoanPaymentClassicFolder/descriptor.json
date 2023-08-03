@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "3b536519-cad4-4e40-96a6-7e3ec99e7adc",
+    "Name": "UsrLoanPaymentClassicFolder",
+    "ModifiedOnUtc": "\/Date(1690790424000)\/",
+    "Parent": {
+      "UId": "d602bf96-d029-4b07-9755-63c8f5cb5ed5",
+      "Name": "BaseFolder"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Loan payment (Classic UI) folder",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Legal entity" />
+			<Item Name="Columns.AccountCategory.Caption" Value="Category" />
+			<Item Name="Columns.AccountLogo.Caption" Value="Legal entity logo" />
+			<Item Name="Columns.AdditionalPhone.Caption" Value="Alternate phone" />
+			<Item Name="Columns.Address.Caption" Value="Address" />
+			<Item Name="Columns.AddressType.Caption" Value="Address type" />
+			<Item Name="Columns.AlternativeName.Caption" Value="Also known as" />
+			<Item Name="Columns.AnnualRevenue.Caption" Value="Annual revenue" />
+			<Item Name="Columns.AptOffice.Caption" Value="Apartment/office" />
+			<Item Name="Columns.AUM.Caption" Value="AUM" />
+			<Item Name="Columns.BlackListDate.Caption" Value="Blacklisted on" />
+			<Item Name="Columns.BlackListReason.Caption" Value="Reason for blacklisting" />
+			<Item Name="Columns.Branch.Caption" Value="Branch" />
+			<Item Name="Columns.Building1.Caption" Value="Building" />
+			<Item Name="Columns.Building2.Caption" Value="Unit" />
+			<Item Name="Columns.City.Caption" Value="City" />
+			<Item Name="Columns.Code.Caption" Value="Company code" />
+			<Item Name="Columns.Completeness.Caption" Value="Data entry compliance" />
+			<Item Name="Columns.Country.Caption" Value="Country" />
+			<Item Name="Columns.CreatedBy.Caption" Value="Created by" />
+			<Item Name="Columns.CreatedOn.Caption" Value="Created on" />
+			<Item Name="Columns.District.Caption" Value="District" />
+			<Item Name="Columns.EmployeesNumber.Caption" Value="No. of employees" />
+			<Item Name="Columns.Fax.Caption" Value="Fax" />
+			<Item Name="Columns.GPSE.Caption" Value="GPS E" />
+			<Item Name="Columns.GPSN.Caption" Value="GPS N" />
+			<Item Name="Columns.Id.Caption" Value="Id" />
+			<Item Name="Columns.Industry.Caption" Value="Industry" />
+			<Item Name="Columns.INN.Caption" Value="Taxpayer number" />
+			<Item Name="Columns.IsInBlackList.Caption" Value="Blacklisted" />
+			<Item Name="Columns.IsLiquidated.Caption" Value="Liquidated" />
+			<Item Name="Columns.IsNotResident.Caption" Value="Non-resident" />
+			<Item Name="Columns.LiquidationDate.Caption" Value="Liquidated on" />
+			<Item Name="Columns.Logo.Caption" Value="Logo" />
+			<Item Name="Columns.ModifiedBy.Caption" Value="Modified by" />
+			<Item Name="Columns.ModifiedOn.Caption" Value="Modified on" />
+			<Item Name="Columns.Name.Caption" Value="Name" />
+			<Item Name="Columns.Notes.Caption" Value="Notes" />
+			<Item Name="Columns.Owner.Caption" Value="Owner" />
+			<Item Name="Columns.Ownership.Caption" Value="Legal form" />
+			<Item Name="Columns.OwnershipForm.Caption" Value="Business entity" />
+			<Item Name="Columns.Parent.Caption" Value="Parent legal entity" />
+			<Item Name="Columns.Phone.Caption" Value="Primary phone" />
+			<Item Name="Columns.PriceList.Caption" Value="Price list" />
+			<Item Name="Columns.PrimaryContact.Caption" Value="Primary contact" />
+			<Item Name="Columns.ProcessListeners.Caption" Value="Active processes" />
+			<Item Name="Columns.Region.Caption" Value="State/province" />
+			<Item Name="Columns.Street.Caption" Value="Street" />
+			<Item Name="Columns.Type.Caption" Value="Type" />
+			<Item Name="Columns.UsrWebsiteCode.Caption" Value="Website code" />
+			<Item Name="Columns.Web.Caption" Value="Web" />
+			<Item Name="Columns.Zip.Caption" Value="ZIP/postal code" />
+			<Item Name="EventsProcessSchema.Caption" Value="Business process" />
+		</Items>
+	</Group>
+</Resources>

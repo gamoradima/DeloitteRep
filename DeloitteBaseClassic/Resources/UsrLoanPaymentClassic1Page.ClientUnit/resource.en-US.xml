@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Edit page: &quot;Loan payment (Classic UI)&quot;" />
+			<Item Name="LocalizableStrings.STRING59c22ad54df645d7b7f0b13e823ee341Tip.Value" Value="Voice input can be used in multiline text control" />
+		</Items>
+	</Group>
+</Resources>

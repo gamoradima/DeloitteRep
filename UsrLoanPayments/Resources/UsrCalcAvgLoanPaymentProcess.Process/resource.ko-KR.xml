@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="ko-KR">
+	<Group Type="String">
+		<Items>
+			<Item Name="BaseElements.PreconfiguredPageUserTask1.Parameters.Title.Value" Value="Show average amount page" />
+			<Item Name="Caption" Value="Calculate average loan payment process" />
+		</Items>
+	</Group>
+</Resources>

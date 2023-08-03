@@ -3,6 +3,25 @@ define("UsrLoanPayments_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/
 		viewConfigDiff: /**SCHEMA_VIEW_CONFIG_DIFF*/[
 			{
 				"operation": "merge",
+				"name": "GeneralInfoTabContainer",
+				"values": {
+					"gap": {
+						"columnGap": "large",
+						"rowGap": "none"
+					},
+					"visible": true,
+					"color": "transparent",
+					"borderRadius": "none",
+					"padding": {
+						"top": "none",
+						"right": "none",
+						"bottom": "none",
+						"left": "none"
+					}
+				}
+			},
+			{
+				"operation": "merge",
 				"name": "CardToggleTabPanel",
 				"values": {
 					"styleType": "default",
@@ -38,6 +57,44 @@ define("UsrLoanPayments_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/
 			},
 			{
 				"operation": "insert",
+				"name": "Button_8a8jh9c",
+				"values": {
+					"type": "crt.Button",
+					"caption": "#ResourceString(Button_8a8jh9c_caption)#",
+					"color": "warn",
+					"disabled": false,
+					"size": "medium",
+					"iconPosition": "only-text",
+					"visible": true,
+					"menuItems": [],
+					"clickMode": "menu"
+				},
+				"parentName": "CardToggleContainer",
+				"propertyName": "items",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "MenuItem_byb0b1r",
+				"values": {
+					"type": "crt.MenuItem",
+					"caption": "#ResourceString(MenuItem_byb0b1r_caption)#",
+					"visible": true,
+					"clicked": {
+						"request": "crt.RunBusinessProcessRequest",
+						"params": {
+							"processName": "UsrCalcAvgLoanPaymentProcess",
+							"processRunType": "ForTheSelectedPage",
+							"recordIdProcessParameterName": "LoanPaymentIdParameter"
+						}
+					}
+				},
+				"parentName": "Button_8a8jh9c",
+				"propertyName": "menuItems",
+				"index": 0
+			},
+			{
+				"operation": "insert",
 				"name": "Button_9c5708n",
 				"values": {
 					"type": "crt.Button",
@@ -55,7 +112,7 @@ define("UsrLoanPayments_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/
 				},
 				"parentName": "CardToggleContainer",
 				"propertyName": "items",
-				"index": 0
+				"index": 1
 			},
 			{
 				"operation": "insert",
@@ -198,6 +255,135 @@ define("UsrLoanPayments_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/
 				"parentName": "GeneralInfoTabContainer",
 				"propertyName": "items",
 				"index": 1
+			},
+			{
+				"operation": "insert",
+				"name": "UsrCustomer",
+				"values": {
+					"layoutConfig": {
+						"column": 1,
+						"row": 2,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.LookupAttribute_wkfr2mr",
+					"labelPosition": "auto",
+					"control": "$LookupAttribute_wkfr2mr",
+					"listActions": [],
+					"showValueAsLink": true,
+					"controlActions": []
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 2
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_1vf373l",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_1vf373l_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "UsrCustomer",
+				"propertyName": "listActions",
+				"index": 0
+			},
+			{
+				"operation": "insert",
+				"name": "MobilePhone",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"row": 2,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.PhoneInput",
+					"label": "$Resources.Strings.UsrCustomerMobilePhone",
+					"control": "$UsrCustomerMobilePhone",
+					"labelPosition": "auto",
+					"placeholder": "",
+					"tooltip": "",
+					"needHandleSave": false,
+					"caption": "#ResourceString(PhoneInput_d7zzbuq_caption)#",
+					"readonly": true
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 3
+			},
+			{
+				"operation": "insert",
+				"name": "Address",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"row": 3,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.Input",
+					"label": "$Resources.Strings.UsrCustomerAddress",
+					"control": "$UsrCustomerAddress",
+					"placeholder": "",
+					"tooltip": "",
+					"readonly": true,
+					"multiline": false,
+					"labelPosition": "auto"
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 4
+			},
+			{
+				"operation": "insert",
+				"name": "City",
+				"values": {
+					"layoutConfig": {
+						"column": 2,
+						"row": 4,
+						"colSpan": 1,
+						"rowSpan": 1
+					},
+					"type": "crt.ComboBox",
+					"label": "$Resources.Strings.UsrCustomerCity",
+					"ariaLabel": "#ResourceString(ComboBox_pehvzhw_ariaLabel)#",
+					"isAddAllowed": true,
+					"showValueAsLink": true,
+					"labelPosition": "auto",
+					"controlActions": [],
+					"listActions": [],
+					"tooltip": "",
+					"readonly": true,
+					"control": "$UsrCustomerCity"
+				},
+				"parentName": "GeneralInfoTabContainer",
+				"propertyName": "items",
+				"index": 5
+			},
+			{
+				"operation": "insert",
+				"name": "addRecord_ps4dwsr",
+				"values": {
+					"code": "addRecord",
+					"type": "crt.ComboboxSearchTextAction",
+					"icon": "combobox-add-new",
+					"caption": "#ResourceString(addRecord_ps4dwsr_caption)#",
+					"clicked": {
+						"request": "crt.CreateRecordFromLookupRequest",
+						"params": {}
+					}
+				},
+				"parentName": "City",
+				"propertyName": "listActions",
+				"index": 0
 			},
 			{
 				"operation": "insert",
@@ -549,6 +735,26 @@ define("UsrLoanPayments_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/
 							}
 						}
 					}
+				},
+				"LookupAttribute_wkfr2mr": {
+					"modelConfig": {
+						"path": "PDS.UsrCustomer"
+					}
+				},
+				"UsrCustomerMobilePhone": {
+					"modelConfig": {
+						"path": "PDS.UsrCustomerMobilePhone"
+					}
+				},
+				"UsrCustomerAddress": {
+					"modelConfig": {
+						"path": "PDS.UsrCustomerAddress"
+					}
+				},
+				"UsrCustomerCity": {
+					"modelConfig": {
+						"path": "PDS.UsrCustomerCity"
+					}
 				}
 			}
 		}/**SCHEMA_VIEW_MODEL_CONFIG*/,
@@ -557,7 +763,21 @@ define("UsrLoanPayments_FormPage", /**SCHEMA_DEPS*/[]/**SCHEMA_DEPS*/, function/
 				"PDS": {
 					"type": "crt.EntityDataSource",
 					"config": {
-						"entitySchemaName": "UsrLoanPayments"
+						"entitySchemaName": "UsrLoanPayments",
+						"attributes": {
+							"UsrCustomerMobilePhone": {
+								"path": "UsrCustomer.MobilePhone",
+								"type": "ForwardReference"
+							},
+							"UsrCustomerAddress": {
+								"path": "UsrCustomer.Address",
+								"type": "ForwardReference"
+							},
+							"UsrCustomerCity": {
+								"path": "UsrCustomer.City",
+								"type": "ForwardReference"
+							}
+						}
 					},
 					"scope": "page"
 				},

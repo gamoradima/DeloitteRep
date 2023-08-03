@@ -1,0 +1,14 @@
+﻿{
+  "Descriptor": {
+    "UId": "d16fa59e-b407-447d-89ec-ae6cb05c52e7",
+    "Name": "UsrLoanPaymentClassicTag",
+    "ModifiedOnUtc": "\/Date(1690790431000)\/",
+    "Parent": {
+      "UId": "9e3f203c-e905-4de5-9468-335b193f2439",
+      "Name": "BaseTag"
+    },
+    "ManagerName": "EntitySchemaManager",
+    "Caption": "Loan payment (Classic UI) section tag",
+    "DependsOn": []
+  }
+}
