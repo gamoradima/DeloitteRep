@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "324a3dd5-e00c-4f0c-b22b-a5297dd8f241",
+    "Name": "UsrImportContactFromWebsiteProcess",
+    "ModifiedOnUtc": "\/Date(1691396716000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Import contact from website",
+    "DependsOn": []
+  }
+}

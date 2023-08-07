@@ -1,0 +1,10 @@
+﻿{
+  "Descriptor": {
+    "UId": "02a6fc03-63df-4a1c-be43-5e9d5dca0287",
+    "Name": "UsrAutoAddLoanSignaturesProcess",
+    "ModifiedOnUtc": "\/Date(1691140154000)\/",
+    "ManagerName": "ProcessSchemaManager",
+    "Caption": "Auto add loan signature process",
+    "DependsOn": []
+  }
+}

@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Resources Culture="en-US">
+	<Group Type="String">
+		<Items>
+			<Item Name="Caption" Value="Contact" />
+			<Item Name="Columns.Account.Caption" Value="Employer" />
+			<Item Name="Columns.Address.Caption" Value="Address" />
+			<Item Name="Columns.AddressType.Caption" Value="Address type" />
+			<Item Name="Columns.Age.Caption" Value="Age" />
+			<Item Name="Columns.AptOffice.Caption" Value="Apartment/office" />
+			<Item Name="Columns.BirthDate.Caption" Value="Birth date" />
+			<Item Name="Columns.BlackListDate.Caption" Value="Blacklisted on" />
+			<Item Name="Columns.BlackListReason.Caption" Value="Reason for blacklisting" />
+			<Item Name="Columns.Branch.Caption" Value="Branch" />
+			<Item Name="Columns.Building1.Caption" Value="Building" />
+			<Item Name="Columns.Building2.Caption" Value="Unit" />
+			<Item Name="Columns.Citizenship.Caption" Value="Citizenship" />
+			<Item Name="Columns.City.Caption" Value="City" />
+			<Item Name="Columns.ClientType.Caption" Value="Customer type" />
+			<Item Name="Columns.Completeness.Caption" Value="Data entry compliance" />
+			<Item Name="Columns.Confirmed.Caption" Value="Confirmed" />
+			<Item Name="Columns.ContactPhoto.Caption" Value="ContactPhoto" />
+			<Item Name="Columns.Country.Caption" Value="Country" />
+			<Item Name="Columns.CreatedBy.Caption" Value="Created by" />
+			<Item Name="Columns.CreatedOn.Caption" Value="Created on" />
+			<Item Name="Columns.Dear.Caption" Value="Recipient's name" />
+			<Item Name="Columns.DeceasedNotes.Caption" Value="Notes" />
+			<Item Name="Columns.DecisionRole.Caption" Value="Role" />
+			<Item Name="Columns.Department.Caption" Value="Department" />
+			<Item Name="Columns.District.Caption" Value="District" />
+			<Item Name="Columns.DoNotUseCall.Caption" Value="Do not use phone" />
+			<Item Name="Columns.DoNotUseEmail.Caption" Value="Do not use email" />
+			<Item Name="Columns.DoNotUseFax.Caption" Value="Do not use fax" />
+			<Item Name="Columns.DoNotUseMail.Caption" Value="Do not use mail" />
+			<Item Name="Columns.DoNotUseSms.Caption" Value="Do not use SMS" />
+			<Item Name="Columns.Education.Caption" Value="Education" />
+			<Item Name="Columns.Email.Caption" Value="Email" />
+			<Item Name="Columns.EmploymentType.Caption" Value="Type of employment" />
+			<Item Name="Columns.Facebook.Caption" Value="Facebook" />
+			<Item Name="Columns.FacebookAFDA.Caption" Value="Facebook Account for Data Access" />
+			<Item Name="Columns.FacebookId.Caption" Value="FacebookId" />
+			<Item Name="Columns.Gender.Caption" Value="Gender" />
+			<Item Name="Columns.GivenName.Caption" Value="First name" />
+			<Item Name="Columns.GPSE.Caption" Value="GPS E" />
+			<Item Name="Columns.GPSN.Caption" Value="GPS N" />
+			<Item Name="Columns.HomePhone.Caption" Value="Home phone" />
+			<Item Name="Columns.Id.Caption" Value="Id" />
+			<Item Name="Columns.INN.Caption" Value="SSN" />
+			<Item Name="Columns.IsAgreePersonalDataProcessing.Caption" Value="Consent to the processing of personal data" />
+			<Item Name="Columns.IsAgreePrivateDataVerification.Caption" Value="Consent to the verification of personal data" />
+			<Item Name="Columns.IsDeceased.Caption" Value="Deceased" />
+			<Item Name="Columns.IsEmailConfirmed.Caption" Value="IsEmailConfirmed" />
+			<Item Name="Columns.IsInBlackList.Caption" Value="Blacklisted" />
+			<Item Name="Columns.IsNonActualEmail.Caption" Value="Invalid email" />
+			<Item Name="Columns.Job.Caption" Value="Job title" />
+			<Item Name="Columns.JobTitle.Caption" Value="Full job title" />
+			<Item Name="Columns.Language.Caption" Value="Preferred language" />
+			<Item Name="Columns.LinkedIn.Caption" Value="LinkedIn" />
+			<Item Name="Columns.LinkedInAFDA.Caption" Value="LinkedIn Account for Data Access" />
+			<Item Name="Columns.LinkedInId.Caption" Value="LinkedInId" />
+			<Item Name="Columns.MaritalStatus.Caption" Value="Marital status" />
+			<Item Name="Columns.MiddleName.Caption" Value="Middle name" />
+			<Item Name="Columns.MobilePhone.Caption" Value="Mobile phone" />
+			<Item Name="Columns.ModifiedBy.Caption" Value="Modified by" />
+			<Item Name="Columns.ModifiedOn.Caption" Value="Modified on" />
+			<Item Name="Columns.Name.Caption" Value="Full name" />
+			<Item Name="Columns.Notes.Caption" Value="Notes" />
+			<Item Name="Columns.NumberOfChildren.Caption" Value="Number of childern" />
+			<Item Name="Columns.NumberOfFamilyMembers.Caption" Value="Number of family members" />
+			<Item Name="Columns.Owner.Caption" Value="Owner" />
+			<Item Name="Columns.Passport.Caption" Value="Passport" />
+			<Item Name="Columns.Phone.Caption" Value="Business phone" />
+			<Item Name="Columns.Photo.Caption" Value="Photo" />
+			<Item Name="Columns.PlaceOfBirth.Caption" Value="Birthplace" />
+			<Item Name="Columns.ProcessListeners.Caption" Value="Active processes" />
+			<Item Name="Columns.Region.Caption" Value="State/province" />
+			<Item Name="Columns.SalutationType.Caption" Value="Title" />
+			<Item Name="Columns.ServiceLevel.Caption" Value="Segment" />
+			<Item Name="Columns.Skype.Caption" Value="Skype" />
+			<Item Name="Columns.SocialStatus.Caption" Value="Social status" />
+			<Item Name="Columns.Spouse.Caption" Value="Spouse" />
+			<Item Name="Columns.Street.Caption" Value="Street" />
+			<Item Name="Columns.Surname.Caption" Value="Last name" />
+			<Item Name="Columns.Twitter.Caption" Value="Twitter" />
+			<Item Name="Columns.TwitterAFDA.Caption" Value="Twitter Account for Data Access" />
+			<Item Name="Columns.TwitterId.Caption" Value="TwitterId" />
+			<Item Name="Columns.Type.Caption" Value="Type" />
+			<Item Name="Columns.UsrWebsiteCode.Caption" Value="Website code" />
+			<Item Name="Columns.Zip.Caption" Value="ZIP/postal code" />
+			<Item Name="EventsProcessSchema.Caption" Value="Business process" />
+		</Items>
+	</Group>
+</Resources>

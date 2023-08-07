@@ -1,0 +1,24 @@
+﻿{
+  "MetaData": {
+    "Schema": {
+      "ManagerName": "SourceCodeSchemaManager",
+      "UId": "c8622cd9-ad84-4b62-a83a-2b80bcef9046",
+      "A2": "UsrLoanPaymentEvents",
+      "A5": "7edb6eb4-4150-4eb2-9f89-871c303413ce",
+      "B1": [],
+      "B2": [
+        {
+          "UId": "64f6fe3f-3133-8096-76c3-7bf998ae3137",
+          "A2": "ValueIsTooBig",
+          "A3": "c8622cd9-ad84-4b62-a83a-2b80bcef9046",
+          "A4": "c8622cd9-ad84-4b62-a83a-2b80bcef9046",
+          "A5": "7edb6eb4-4150-4eb2-9f89-871c303413ce"
+        }
+      ],
+      "B3": [],
+      "B6": "82150e8b-5401-4dc9-bc23-323926120e9e",
+      "B8": "8.0.9.1582",
+      "HD1": "50e3acc0-26fc-4237-a095-849a1d534bd3"
+    }
+  }
+}
